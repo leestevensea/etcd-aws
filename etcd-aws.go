@@ -223,7 +223,7 @@ func main() {
 	cmd.Stderr = os.Stderr
 	cmd.Env = []string{
 		fmt.Sprintf("ETCD_NAME=%s", *localInstance.InstanceId),
-		fmt.Sprintf("ETCD_DATA_DIR=/var/lib/etcd2"),
+		fmt.Sprintf("ETCD_DATA_DIR=%s", *dataDir),
 		fmt.Sprintf("ETCD_ELECTION_TIMEOUT=1200"),
 		fmt.Sprintf("ETCD_ADVERTISE_CLIENT_URLS=http://%s:2379", *localInstance.PrivateIpAddress),
 		fmt.Sprintf("ETCD_LISTEN_CLIENT_URLS=http://0.0.0.0:2379"),
