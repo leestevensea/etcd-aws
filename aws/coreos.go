@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	cfn "github.com/crewjam/go-cloudformation"
+	cfn "github.com/leestevensea/go-cloudformation"
 )
 
 var Arch = cfn.FindInMap("VirtType", cfn.Ref("InstanceType"), cfn.String("64"))
