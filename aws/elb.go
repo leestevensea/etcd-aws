@@ -3,7 +3,7 @@ package aws
 import (
 	"fmt"
 
-	cfn "github.com/crewjam/go-cloudformation"
+	cfn "github.com/leestevensea/go-cloudformation"
 )
 
 // MakeMasterLoadBalancer creates a load balancer the connects to each
