@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	cfn "github.com/crewjam/go-cloudformation"
+	cfn "github.com/leestevensea/go-cloudformation"
 )
 
 // MakeVPC creates a VPC with a subnet for each of up to four availability zones.
