@@ -3,7 +3,7 @@ package aws
 import (
 	"fmt"
 
-	cfn "github.com/crewjam/go-cloudformation"
+	cfn "github.com/leestevensea/go-cloudformation"
 )
 
 // MakeClientSecurityGroup creates a security group for clients of the etcd cluster
