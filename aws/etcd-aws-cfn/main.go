@@ -9,9 +9,9 @@ import (
 	"regexp"
 
 	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/crewjam/awsregion"
-	etcdaws "github.com/crewjam/etcd-aws/aws"
-	"github.com/crewjam/go-cloudformation/deploycfn"
+	"github.com/leestevensea/awsregion"
+	etcdaws "github.com/leestevensea/etcd-aws/aws"
+	"github.com/leestevensea/go-cloudformation/deploycfn"
 )
 
 func Main() error {
