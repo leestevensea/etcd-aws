@@ -3,7 +3,7 @@ package aws
 import (
 	"fmt"
 
-	cfn "github.com/crewjam/go-cloudformation"
+	cfn "github.com/leestevensea/go-cloudformation"
 )
 
 // MakeHealthCheck creates CloudWatch alarms that monitor the health of the cluster.
