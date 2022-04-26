@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	cfn "github.com/crewjam/go-cloudformation"
+	cfn "github.com/leestevensea/go-cloudformation"
 )
 
 // EtcdAwsService is a systemd unit that wraps and runs etcd2
