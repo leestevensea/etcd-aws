@@ -1,6 +1,6 @@
 package aws
 
-import cfn "github.com/crewjam/go-cloudformation"
+import cfn "github.com/leestevensea/go-cloudformation"
 
 type PolicyDocument struct {
 	Version   string `json:",omitempty"`
